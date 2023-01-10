@@ -5,20 +5,6 @@ inputs:
   working-dir:
     description: 'the project working directory'
     required: true
-  github-user:
-    description: 'user of github'
-    required: true
-    default: 'github-action-committer'
-  github-email:
-    description: 'email of the github user'
-    require: true
-  github-remote:
-    description: 'the git remote name'
-    require: false
-    default: 'origin'
-  github-token:
-    description: 'github token for action operation'
-    require: true
 
 outputs:
   is_updated:
